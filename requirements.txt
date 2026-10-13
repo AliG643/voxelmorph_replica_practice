@@ -1,0 +1,5 @@
+torch>=2.0
+numpy>=1.26
+Pillow>=10
+matplotlib>=3.8
+nibabel>=5
