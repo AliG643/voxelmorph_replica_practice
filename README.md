@@ -87,6 +87,17 @@ python -m unittest discover -s tests -v
 
 Tests check sampling direction, identity, integer labels, integration, gradients, dataset pairing, known metrics, training versus validation updates, arbitrary spatial sizes, and checkpoint reloads. See `DESIGN.md` for the reasoning and every file/function.
 
+## Acknowledgments
+
+This educational 2D implementation is inspired by
+[VoxelMorph](https://github.com/voxelmorph/voxelmorph).
+It implements the core registration workflow and optional
+stationary-velocity integration, rather than the full upstream library.
+
+## License
+
+This project is licensed under Apache-2.0. See [LICENSE](LICENSE).
+
 ## Sources and data attribution
 
 - [VoxelMorph framework paper](https://arxiv.org/abs/1809.05231): direct-displacement, differentiable warping and unsupervised similarity/smoothness objective.
